@@ -1,0 +1,35 @@
+{
+    "head":{
+        "headImage": "image_1",
+        "name": "徐进忠",
+        "sexMan": 0,
+        "mail": "xujinzhong@sina.cn",
+        "ID": "3498779824"
+    },
+    "list": [
+             {
+             "listImage": "image_3",
+             "listTitle": "钱包"
+             },
+             {
+             "listImage": "image_4",
+             "listTitle": "收藏"
+             },
+             {
+             "listImage": "image_5",
+             "listTitle": "卡包"
+             },
+             {
+             "listImage": "image_6",
+             "listTitle": "表情"
+             },
+             {
+             "listImage": "image_2",
+             "listTitle": "记事本"
+             },
+             {
+             "listImage": "image_4",
+             "listTitle": "设置"
+             }
+    ]
+}
