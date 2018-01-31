@@ -1,12 +1,23 @@
-# myComprehensiveApplication
-1、实现MVVM设计模式 2、使用ReactiveObjC响应式开发的一般应用 2、开发中使用了运行时
 
-model
-· 对原始数据进行封装成对象，以对象属相方式传递。
-·现实世界中对象的抽象结果
-View和ViewModel
-· View = UI
-· ViewModel = Model for View
-· View和ViewModel的沟通
-  → 传递数据：数据属性
-  → 传递操作：命令属性
+1、实现MVVM设计模式 
+
+2、使用ReactiveObjC响应式开发的一般应用 
+
+2、开发中使用了运行时
+
+目录结构：
+
+![image](https://github.com/xujinzhongxyx/myComprehensiveApplication/blob/master/screenImg/screen_1.png)
+
+界面展现：
+
+![image](https://github.com/xujinzhongxyx/myComprehensiveApplication/blob/master/screenImg/screen_2.png)
+
+
+![image](https://github.com/xujinzhongxyx/myComprehensiveApplication/blob/master/screenImg/screen_3.png)
+
+
+![image](https://github.com/xujinzhongxyx/myComprehensiveApplication/blob/master/screenImg/screen_4.png)
+
+
+![image](https://github.com/xujinzhongxyx/myComprehensiveApplication/blob/master/screenImg/screen_5.png)
