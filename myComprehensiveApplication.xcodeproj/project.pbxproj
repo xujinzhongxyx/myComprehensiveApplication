@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		206DA0A6202191AF0082839F /* CATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 206DA097202191AF0082839F /* CATabBarController.m */; };
+		206DA0A7202191AF0082839F /* CAmessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 206DA098202191AF0082839F /* CAmessageViewController.m */; };
+		206DA0A8202191AF0082839F /* myDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 206DA09C202191AF0082839F /* myDetailViewController.m */; };
+		206DA0A9202191AF0082839F /* CAmyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 206DA09D202191AF0082839F /* CAmyViewController.m */; };
+		206DA0AA202191AF0082839F /* CAfindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 206DA09E202191AF0082839F /* CAfindViewController.m */; };
+		206DA0AB202191AF0082839F /* CADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 206DA0A0202191AF0082839F /* CADetailViewController.m */; };
+		206DA0AC202191AF0082839F /* CAaddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 206DA0A1202191AF0082839F /* CAaddressBookViewController.m */; };
 		3A22F5B41F00B120001D4D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A22F5B31F00B120001D4D31 /* Assets.xcassets */; };
-		3A22F5B91F00D25D001D4D31 /* CAmyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A22F5B81F00D25D001D4D31 /* CAmyViewController.m */; };
-		3A22F5BC1F00D2FA001D4D31 /* myDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A22F5BB1F00D2FA001D4D31 /* myDetailViewController.m */; };
 		3A3390AA1EF2191600764EC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3390A91EF2191600764EC5 /* main.m */; };
 		3A3390AD1EF2191600764EC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3390AC1EF2191600764EC5 /* AppDelegate.m */; };
-		3A3390C71EF21A5400764EC5 /* CAmessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3390C31EF21A5400764EC5 /* CAmessageViewController.m */; };
-		3A3390CA1EF2211800764EC5 /* CATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3390C91EF2211800764EC5 /* CATabBarController.m */; };
-		3A3390D31EF2221200764EC5 /* CAfindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3390D21EF2221200764EC5 /* CAfindViewController.m */; };
 		3A37BDAD1EF8B9330040570C /* account.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A37BDAC1EF8B9330040570C /* account.m */; };
 		3A37BDB11EF8C73B0040570C /* LSMyHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A37BDB01EF8C73B0040570C /* LSMyHeadCell.m */; };
 		3A37BDB41EF8C7880040570C /* LSMyListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A37BDB31EF8C7880040570C /* LSMyListCell.m */; };
@@ -26,8 +28,6 @@
 		3A3C975D1EFCE271003D3D4D /* LSFindSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3C975C1EFCE271003D3D4D /* LSFindSliderView.m */; };
 		3A3C97601EFCE29E003D3D4D /* LSFindSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3C975F1EFCE29E003D3D4D /* LSFindSelectedView.m */; };
 		3A6D2A831EF9FB9100B77362 /* NSArray+ADNSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D2A821EF9FB9100B77362 /* NSArray+ADNSArray.m */; };
-		3A6D2A891EFA612700B77362 /* CAaddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D2A861EFA612700B77362 /* CAaddressBookViewController.m */; };
-		3A6D2A8A1EFA612700B77362 /* CADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D2A881EFA612700B77362 /* CADetailViewController.m */; };
 		3A6E5F9E1EFB5E190071785B /* LSFindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6E5F9D1EFB5E190071785B /* LSFindView.m */; };
 		3A73F7811EF27A90000FA8C8 /* LStabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A73F7801EF27A90000FA8C8 /* LStabBarView.m */; };
 		3A73F7841EF3A119000FA8C8 /* messageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A73F7831EF3A119000FA8C8 /* messageViewModel.m */; };
@@ -50,25 +50,29 @@
 
 /* Begin PBXFileReference section */
 		12969B415007006578BEA10E /* Pods_myComprehensiveApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myComprehensiveApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		206DA096202191AF0082839F /* CAfindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAfindViewController.h; sourceTree = "<group>"; };
+		206DA097202191AF0082839F /* CATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATabBarController.m; sourceTree = "<group>"; };
+		206DA098202191AF0082839F /* CAmessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAmessageViewController.m; sourceTree = "<group>"; };
+		206DA09A202191AF0082839F /* CAmyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAmyViewController.h; sourceTree = "<group>"; };
+		206DA09B202191AF0082839F /* myDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myDetailViewController.h; sourceTree = "<group>"; };
+		206DA09C202191AF0082839F /* myDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myDetailViewController.m; sourceTree = "<group>"; };
+		206DA09D202191AF0082839F /* CAmyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAmyViewController.m; sourceTree = "<group>"; };
+		206DA09E202191AF0082839F /* CAfindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAfindViewController.m; sourceTree = "<group>"; };
+		206DA0A0202191AF0082839F /* CADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADetailViewController.m; sourceTree = "<group>"; };
+		206DA0A1202191AF0082839F /* CAaddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAaddressBookViewController.m; sourceTree = "<group>"; };
+		206DA0A2202191AF0082839F /* CADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADetailViewController.h; sourceTree = "<group>"; };
+		206DA0A3202191AF0082839F /* CAaddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAaddressBookViewController.h; sourceTree = "<group>"; };
+		206DA0A4202191AF0082839F /* CATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATabBarController.h; sourceTree = "<group>"; };
+		206DA0A5202191AF0082839F /* CAmessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAmessageViewController.h; sourceTree = "<group>"; };
 		33F2BD11288DA38846465145 /* Pods-myComprehensiveApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myComprehensiveApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-myComprehensiveApplication/Pods-myComprehensiveApplication.release.xcconfig"; sourceTree = "<group>"; };
 		3A22F5B31F00B120001D4D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A22F5B51F00D0CB001D4D31 /* MAPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPath.h; sourceTree = "<group>"; };
-		3A22F5B71F00D25D001D4D31 /* CAmyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAmyViewController.h; sourceTree = "<group>"; };
-		3A22F5B81F00D25D001D4D31 /* CAmyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAmyViewController.m; sourceTree = "<group>"; };
-		3A22F5BA1F00D2FA001D4D31 /* myDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myDetailViewController.h; sourceTree = "<group>"; };
-		3A22F5BB1F00D2FA001D4D31 /* myDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myDetailViewController.m; sourceTree = "<group>"; };
 		3A3390A51EF2191600764EC5 /* myComprehensiveApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myComprehensiveApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3390A91EF2191600764EC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A3390AB1EF2191600764EC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3A3390AC1EF2191600764EC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3A3390B91EF2191600764EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A3390BF1EF21A4300764EC5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		3A3390C21EF21A5400764EC5 /* CAmessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAmessageViewController.h; sourceTree = "<group>"; };
-		3A3390C31EF21A5400764EC5 /* CAmessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAmessageViewController.m; sourceTree = "<group>"; };
-		3A3390C81EF2211800764EC5 /* CATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATabBarController.h; sourceTree = "<group>"; };
-		3A3390C91EF2211800764EC5 /* CATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATabBarController.m; sourceTree = "<group>"; };
-		3A3390D11EF2221200764EC5 /* CAfindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAfindViewController.h; sourceTree = "<group>"; };
-		3A3390D21EF2221200764EC5 /* CAfindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAfindViewController.m; sourceTree = "<group>"; };
 		3A37BDAB1EF8B9330040570C /* account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = account.h; sourceTree = "<group>"; };
 		3A37BDAC1EF8B9330040570C /* account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = account.m; sourceTree = "<group>"; };
 		3A37BDAF1EF8C73B0040570C /* LSMyHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSMyHeadCell.h; sourceTree = "<group>"; };
@@ -87,10 +91,6 @@
 		3A3C975F1EFCE29E003D3D4D /* LSFindSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSFindSelectedView.m; sourceTree = "<group>"; };
 		3A6D2A811EF9FB9100B77362 /* NSArray+ADNSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ADNSArray.h"; sourceTree = "<group>"; };
 		3A6D2A821EF9FB9100B77362 /* NSArray+ADNSArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ADNSArray.m"; sourceTree = "<group>"; };
-		3A6D2A851EFA612700B77362 /* CAaddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAaddressBookViewController.h; sourceTree = "<group>"; };
-		3A6D2A861EFA612700B77362 /* CAaddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAaddressBookViewController.m; sourceTree = "<group>"; };
-		3A6D2A871EFA612700B77362 /* CADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADetailViewController.h; sourceTree = "<group>"; };
-		3A6D2A881EFA612700B77362 /* CADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADetailViewController.m; sourceTree = "<group>"; };
 		3A6E5F9C1EFB5E190071785B /* LSFindView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSFindView.h; sourceTree = "<group>"; };
 		3A6E5F9D1EFB5E190071785B /* LSFindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSFindView.m; sourceTree = "<group>"; };
 		3A73F77E1EF2277F000FA8C8 /* MAEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAEnum.h; sourceTree = "<group>"; };
@@ -150,15 +150,41 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		3A22F5B61F00D25D001D4D31 /* my */ = {
+		206DA095202191AF0082839F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3A22F5B71F00D25D001D4D31 /* CAmyViewController.h */,
-				3A22F5B81F00D25D001D4D31 /* CAmyViewController.m */,
-				3A22F5BA1F00D2FA001D4D31 /* myDetailViewController.h */,
-				3A22F5BB1F00D2FA001D4D31 /* myDetailViewController.m */,
+				206DA096202191AF0082839F /* CAfindViewController.h */,
+				206DA097202191AF0082839F /* CATabBarController.m */,
+				206DA098202191AF0082839F /* CAmessageViewController.m */,
+				206DA099202191AF0082839F /* my */,
+				206DA09E202191AF0082839F /* CAfindViewController.m */,
+				206DA09F202191AF0082839F /* addressBook */,
+				206DA0A4202191AF0082839F /* CATabBarController.h */,
+				206DA0A5202191AF0082839F /* CAmessageViewController.h */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		206DA099202191AF0082839F /* my */ = {
+			isa = PBXGroup;
+			children = (
+				206DA09A202191AF0082839F /* CAmyViewController.h */,
+				206DA09B202191AF0082839F /* myDetailViewController.h */,
+				206DA09C202191AF0082839F /* myDetailViewController.m */,
+				206DA09D202191AF0082839F /* CAmyViewController.m */,
 			);
 			path = my;
+			sourceTree = "<group>";
+		};
+		206DA09F202191AF0082839F /* addressBook */ = {
+			isa = PBXGroup;
+			children = (
+				206DA0A0202191AF0082839F /* CADetailViewController.m */,
+				206DA0A1202191AF0082839F /* CAaddressBookViewController.m */,
+				206DA0A2202191AF0082839F /* CADetailViewController.h */,
+				206DA0A3202191AF0082839F /* CAaddressBookViewController.h */,
+			);
+			path = addressBook;
 			sourceTree = "<group>";
 		};
 		3A33909C1EF2191600764EC5 = {
@@ -208,27 +234,12 @@
 				3A73F77C1EF2271F000FA8C8 /* Helper */,
 				3A73F77D1EF2271F000FA8C8 /* Macro */,
 				3A6D2A801EF9FB1D00B77362 /* Additionals */,
-				3A3390C11EF21A5400764EC5 /* Controller */,
+				206DA095202191AF0082839F /* Controllers */,
 				3A3390C41EF21A5400764EC5 /* Model */,
 				3A3390C51EF21A5400764EC5 /* ViewModel */,
 				3A3390C61EF21A5400764EC5 /* Views */,
 			);
 			path = General;
-			sourceTree = "<group>";
-		};
-		3A3390C11EF21A5400764EC5 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3A3390C81EF2211800764EC5 /* CATabBarController.h */,
-				3A3390C91EF2211800764EC5 /* CATabBarController.m */,
-				3A3390C21EF21A5400764EC5 /* CAmessageViewController.h */,
-				3A3390C31EF21A5400764EC5 /* CAmessageViewController.m */,
-				3A3390D11EF2221200764EC5 /* CAfindViewController.h */,
-				3A3390D21EF2221200764EC5 /* CAfindViewController.m */,
-				3A22F5B61F00D25D001D4D31 /* my */,
-				3A6D2A841EFA612700B77362 /* addressBook */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		3A3390C41EF21A5400764EC5 /* Model */ = {
@@ -306,17 +317,6 @@
 				3A6D2A821EF9FB9100B77362 /* NSArray+ADNSArray.m */,
 			);
 			path = Additionals;
-			sourceTree = "<group>";
-		};
-		3A6D2A841EFA612700B77362 /* addressBook */ = {
-			isa = PBXGroup;
-			children = (
-				3A6D2A851EFA612700B77362 /* CAaddressBookViewController.h */,
-				3A6D2A861EFA612700B77362 /* CAaddressBookViewController.m */,
-				3A6D2A871EFA612700B77362 /* CADetailViewController.h */,
-				3A6D2A881EFA612700B77362 /* CADetailViewController.m */,
-			);
-			path = addressBook;
 			sourceTree = "<group>";
 		};
 		3A6E5F9B1EFB5E000071785B /* LSFindViews */ = {
@@ -419,6 +419,7 @@
 				TargetAttributes = {
 					3A3390A41EF2191600764EC5 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XQMLDGQF87;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -513,16 +514,17 @@
 				3A6D2A831EF9FB9100B77362 /* NSArray+ADNSArray.m in Sources */,
 				3A73F7A41EF3A48D000FA8C8 /* LSBaseTableView.m in Sources */,
 				3A73F7B31EF3B1DB000FA8C8 /* BaseViewModel.m in Sources */,
+				206DA0A7202191AF0082839F /* CAmessageViewController.m in Sources */,
 				3A73F7AD1EF3A933000FA8C8 /* LSFindCellModelind.m in Sources */,
 				3A73F7971EF3A235000FA8C8 /* LSAddressBookCell.m in Sources */,
 				3A73F78D1EF3A154000FA8C8 /* myViewModel.m in Sources */,
+				206DA0A9202191AF0082839F /* CAmyViewController.m in Sources */,
+				206DA0AC202191AF0082839F /* CAaddressBookViewController.m in Sources */,
+				206DA0AB202191AF0082839F /* CADetailViewController.m in Sources */,
 				3A37BDC11EF8ED570040570C /* helper.m in Sources */,
 				3A73F7911EF3A1D5000FA8C8 /* LSMessageCell.m in Sources */,
 				3A37BDB41EF8C7880040570C /* LSMyListCell.m in Sources */,
-				3A6D2A8A1EFA612700B77362 /* CADetailViewController.m in Sources */,
 				3A73F7841EF3A119000FA8C8 /* messageViewModel.m in Sources */,
-				3A6D2A891EFA612700B77362 /* CAaddressBookViewController.m in Sources */,
-				3A22F5BC1F00D2FA001D4D31 /* myDetailViewController.m in Sources */,
 				3A73F7AA1EF3A924000FA8C8 /* LSAddressBookCellModel.m in Sources */,
 				3A73F7941EF3A1FC000FA8C8 /* LSBaseCell.m in Sources */,
 				3A73F79A1EF3A246000FA8C8 /* LSFindCell.m in Sources */,
@@ -530,18 +532,17 @@
 				3A3C975D1EFCE271003D3D4D /* LSFindSliderView.m in Sources */,
 				3A3C97601EFCE29E003D3D4D /* LSFindSelectedView.m in Sources */,
 				3A73F7B01EF3A941000FA8C8 /* LSMyCellModely.m in Sources */,
-				3A3390C71EF21A5400764EC5 /* CAmessageViewController.m in Sources */,
 				3A3390AD1EF2191600764EC5 /* AppDelegate.m in Sources */,
 				3A3390AA1EF2191600764EC5 /* main.m in Sources */,
+				206DA0A8202191AF0082839F /* myDetailViewController.m in Sources */,
 				3A73F7B61EF3BA34000FA8C8 /* LSBaseModel.m in Sources */,
-				3A22F5B91F00D25D001D4D31 /* CAmyViewController.m in Sources */,
 				3A37BDAD1EF8B9330040570C /* account.m in Sources */,
-				3A3390CA1EF2211800764EC5 /* CATabBarController.m in Sources */,
 				3A37BDB11EF8C73B0040570C /* LSMyHeadCell.m in Sources */,
-				3A3390D31EF2221200764EC5 /* CAfindViewController.m in Sources */,
 				3A6E5F9E1EFB5E190071785B /* LSFindView.m in Sources */,
+				206DA0AA202191AF0082839F /* CAfindViewController.m in Sources */,
 				3A73F7811EF27A90000FA8C8 /* LStabBarView.m in Sources */,
 				3A73F78A1EF3A145000FA8C8 /* findViewModel.m in Sources */,
+				206DA0A6202191AF0082839F /* CATabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,16 +646,16 @@
 			baseConfigurationReference = 8B938AC3AC60A0C8536A8F28 /* Pods-myComprehensiveApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: chen yang (9FNPH3S39N)";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: daliangaoxinyuanqu jack family (836H6GUSR9)";
+				DEVELOPMENT_TEAM = XQMLDGQF87;
 				GCC_PREFIX_HEADER = myComprehensiveApplication/PrefixHeader.pch;
 				INFOPLIST_FILE = myComprehensiveApplication/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.ebanyun.com;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordsDevelop.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "656ae733-8dcb-4985-a484-84cad3b0e4e9";
-				PROVISIONING_PROFILE_SPECIFIER = www.ebanyun.com;
+				PROVISIONING_PROFILE = "77252ec9-477f-4d19-8b61-08834cc99ffe";
+				PROVISIONING_PROFILE_SPECIFIER = wordsDevelop;
 			};
 			name = Debug;
 		};
@@ -663,16 +664,16 @@
 			baseConfigurationReference = 33F2BD11288DA38846465145 /* Pods-myComprehensiveApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: chen yang (9FNPH3S39N)";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: daliangaoxinyuanqu jack family (836H6GUSR9)";
+				DEVELOPMENT_TEAM = XQMLDGQF87;
 				GCC_PREFIX_HEADER = myComprehensiveApplication/PrefixHeader.pch;
 				INFOPLIST_FILE = myComprehensiveApplication/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.ebanyun.com;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordsDevelop.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "656ae733-8dcb-4985-a484-84cad3b0e4e9";
-				PROVISIONING_PROFILE_SPECIFIER = www.ebanyun.com;
+				PROVISIONING_PROFILE = "77252ec9-477f-4d19-8b61-08834cc99ffe";
+				PROVISIONING_PROFILE_SPECIFIER = wordsDevelop;
 			};
 			name = Release;
 		};
